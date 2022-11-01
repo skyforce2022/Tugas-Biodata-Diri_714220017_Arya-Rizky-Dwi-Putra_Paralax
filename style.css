@@ -1,0 +1,224 @@
+/* Memberikan style keseluruhan */
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(11, 8, 192);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+  
+   
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    
+   
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'comic sans ms';
+    color: #ffffff;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #04ad17;
+    z-index: 1;
+    border-bottom:10px solid #05a11c;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    font-size: large;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    border-top: white;
+   
+}
+
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    font-style: oblique;
+    color: #1e07cb;
+    text-decoration: underline;
+    
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #180cc6;
+    width: 100%;
+    line-height: 50px;
+    text-decoration: underline;
+}
+
+
+
+p {
+    font-size: larger;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.mhslist {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardmhs {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.cardmhs img {
+    width: 80%;
+    border-radius: 50%;
+    height: 70%;
+}
+
+.cardmhs p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #0b05bd;
+}
+.tengah{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+th, td{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+    text-align: center;
+    font-family: 'poppins' , sans-serif;
+    float:none
+}
+
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+.gigi img{
+    width: 200px;
+    height: 300px;
+    border-style: solid;
+    border-width: 5px;
+    margin-right: 100px;
+}
+
+.gintama img {
+    width: 300px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top: 100px;
+    border-style: solid ;
+    border-width: 5px;
+ }
+ 
+ .deskripsi table, th, td {
+    border: 1px solid;
+    font-size: larger;
+    background-color : #E6D2AA;
+ }
+ 
+ .ukuran img {
+    width: 400px;
+    height: 150px;
+    
+ }
+ 
+ body {
+    height: 100vh;
+            width: 100%;
+            background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f3bdc46a-e004-4eab-9af4-be4c77a01d51/d8naqln-1e2ba62a-577f-4ad8-8ba2-51b7e0351b33.jpg/v1/fill/w_1192,h_670,q_70,strp/bloodborne_by_darrengeers_d8naqln-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTQ0MCIsInBhdGgiOiJcL2ZcL2YzYmRjNDZhLWUwMDQtNGVhYi05YWY0LWJlNGM3N2EwMWQ1MVwvZDhuYXFsbi0xZTJiYTYyYS01NzdmLTRhZDgtOGJhMi01MWI3ZTAzNTFiMzMuanBnIiwid2lkdGgiOiI8PTI1NjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.k9XIpz4YHQXWoO7iyYshelP-N8jrKD_EgXeqEjtnOfg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+            
+ }
+
+ .ukuran img{
+    background-color: #F1EFDC;
+    background-size: 50000px;
+    border-radius: 5%;
+ }
+ .footer {
+	border-bottom: 5px solid white;
+}
+
+ .footer2 {
+	border-bottom: 5px solid white;
+}
+.footer3 {
+	border-bottom: 5px solid white;
+}
+
+.footer4 {
+	border-bottom: 5px solid white;
+}
